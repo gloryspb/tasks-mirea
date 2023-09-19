@@ -1,0 +1,3 @@
+﻿  tt2.cpp
+C:\Users\Kirill\Desktop\уник\tt2\tt2\tt2.cpp(126,8): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  tt2.vcxproj -> C:\Users\Kirill\Desktop\уник\tt2\Debug\tt2.exe

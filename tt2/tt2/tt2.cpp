@@ -48,11 +48,17 @@ void Task1()
 	cin >> _height >> _radiusBase >> _radiusVertex;
 
 	//Cone _cone = new Cone(_height, _radiusBase, _radiusVertex);
+	if (_height >= 0 && _radiusBase >= 0 && _radiusVertex >= 0)
+	{
+		Cone _cone(_height, _radiusBase, _radiusVertex);
 
-	Cone _cone(_height, _radiusBase, _radiusVertex);
-
-	cout << _cone.GetArea() << endl;
-	cout << _cone.GetVolume() << endl;
+		cout << _cone.GetArea() << endl;
+		cout << _cone.GetVolume() << endl;
+	}
+	else 
+	{
+		cout << "Error!" << endl;
+	}
 }
 
 double Task2(double numA, double numX)
@@ -89,12 +95,14 @@ void Task4(int num)
 	}
 }
 
-void Task5()
+void Task5(double x)
 {
-	for (double x = -4; x <= 4; x += 0.5)
-	{
-		cout << "x = " + to_string(x) + ", y = " + to_string((x * x - 2 * x + 2) / (x - 1));
-	}
+	if (x >= 4.0)
+		return;
+
+	cout << "x = " + to_string(x) + ", y = " + to_string((x * x - 2 * x + 2) / (x - 1));
+
+	Task5(x + 0.5);
 }
 
 int main()
@@ -130,7 +138,9 @@ int main()
 	// задание 5
 
 	cout << "Tabulation:" << endl;
-	Task5();
+	Task5(-4);
 
+	string str;
+	cin >> str;
 	return 0;
 }

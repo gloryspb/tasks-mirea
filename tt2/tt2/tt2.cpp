@@ -33,8 +33,8 @@ double Cone::GetVolume()
 
 double Cone::GetArea()
 {
-	return 3.14 * (radiusBase * radiusBase + (radiusVertex * radiusBase)
-		* (sqrt(radiusBase * radiusBase + height * height))
+	return 3.14 * (radiusBase * radiusBase + (radiusVertex + radiusBase)
+		* (sqrt(abs(radiusBase - radiusVertex) * abs(radiusBase - radiusVertex) + height * height))
 		+ radiusVertex * radiusVertex);
 }
 

@@ -1,0 +1,3 @@
+C:/Users/Kirill/Desktop/unik/tt4/cmake-build-debug/CMakeFiles/tt4.dir
+C:/Users/Kirill/Desktop/unik/tt4/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Kirill/Desktop/unik/tt4/cmake-build-debug/CMakeFiles/rebuild_cache.dir

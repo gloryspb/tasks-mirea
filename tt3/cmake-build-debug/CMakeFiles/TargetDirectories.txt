@@ -1,0 +1,3 @@
+C:/Users/Kirill/Desktop/unik/.edu2/cmake-build-debug/CMakeFiles/_edu2.dir
+C:/Users/Kirill/Desktop/unik/.edu2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Kirill/Desktop/unik/.edu2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
